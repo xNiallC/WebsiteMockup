@@ -5,6 +5,9 @@
  */
 .bg-dark { background-color: #007acc!important }
 
+.button-profile {
+  padding: 10px;
+}
 html {
   position: relative;
   min-height: 100%; }

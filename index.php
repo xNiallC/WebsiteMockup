@@ -17,6 +17,13 @@
   <!-- Custom styles for this template-->
   <link href="css/sb-admin.css" rel="stylesheet">
 </head>
+<?php 
+  if(!isset($_COOKIE[$cookie_name])) {
+    // Run the tutorial with the dim screen
+    setcookie('Visited')
+  }
+
+?>
 
 <body class="fixed-nav sticky-footer bg-dark" id="page-top">
   <!-- Navigation-->

@@ -21,7 +21,12 @@
   <!-- Jquery -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
-
+<?php
+  if(!isset($_COOKIE[$cookie_name])) {
+    // Run the tutorial with the dim screen
+    setcookie('Visited')
+  }
+?>
 <body class="fixed-nav sticky-footer bg-dark" id="page-top">
   <!-- Navigation-->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
